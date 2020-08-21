@@ -1,3 +1,1 @@
-# todoList made For The Odin Project.
-#var quotes = [
- 
+todoList made For The Odin Project. 
