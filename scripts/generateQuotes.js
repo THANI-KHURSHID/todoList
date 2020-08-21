@@ -1,5 +1,4 @@
-# todoList made For The Odin Project.
-#var quotes = [
+var quotes = [
   `Your time is limited, so don’t waste it living someone else’s life. -Steve Jobs`,
   `Stay hungry. Stay foolish. -Steve Jobs`,
   `The way to get started is to quit talking and begin doing. -Walt Disney`,
@@ -16,7 +15,7 @@
   `As a well spent day brings happy sleep, so life well used brings happy death. -Leonardo Da Vinci`,
   `One can have no smaller or greater mastery than mastery of oneself. -Leonardo Da Vinci`,
 ];
-export function quoteGenerator() {
+export function getQuotes() {
   var randomIndex = getIndexOfNewQuote();
   document.querySelector("#quoteDisplay").innerHTML = quotes[randomIndex];
   console.log(quotes[randomIndex]);
